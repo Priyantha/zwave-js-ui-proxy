@@ -9,8 +9,8 @@ I do NOT have a working docker image, or something else like a 'normal' installa
 So you can only install this the 'manual' way.
 
 You can do this like this:
-1. Git clone this project into your add-ons folder
-2. Remove the `image` key from `zwave-js-ui-proxy/config.json` to enable local builds.
+1. Git clone this project into your local (for example '/usr/share/hassio/addons/local' this is in my supervised install the folder) add-ons folder
+2. chmod the file entrypoint.sh to 755 by using 'chmod 755 entrypoint.sh' as command.
 
 
 ## Options
