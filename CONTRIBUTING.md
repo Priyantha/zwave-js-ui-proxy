@@ -1,19 +1,11 @@
 # Setting up
 1. Git clone this project into your add-ons folder
-2. Remove the `image` key from `zigbee2mqtt-edge/config.json` to enable local builds.
-3. Add back `"image": "zigbee2mqtt/zigbee2mqtt-edge-{arch}"` to `zigbee2mqtt-edge/config.json` after you're done.
+2. Remove the `image` key from `zwave-js-ui-proxy/config.json` to enable local builds.
+3. Add back `"image": "Priyantha/zwave-js-ui-proxy-{arch}"` to `zwave-js-ui-proxy/config.json` after you're done.
 
-# Upgrading the Zigbee2MQTT version
-1. Change the version number in `zigbee2mqtt/config.json`: `"version": "$NEW_VERSION"`
-2. Update `zigbee2mqtt/CHANGELOG.md`
-3. Commit the changes to `master` branch
-4. Wait till ci finishes
-5. Publish a new "Release". Very important you specify Target: master. Example
-```
-Tag version: v1.25.2-1  @ Target: master
-Release title: v1.25.2-1
 ```
 
+# Please be aware the below text is directly from the original addon writer, the Zigbee2MQTT addon, I have nothing changed here
 # Developing against the Home Assistant container
 
 When you want to check the impact of developing work, e.g. adjusting devices in [zigbee-herdsman-converters](https://github.com/Koenkk/zigbee-herdsman-converters), you need access to the add-on container in Home Assistant. Here's how:
