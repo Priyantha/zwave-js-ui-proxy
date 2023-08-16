@@ -27,10 +27,11 @@
       "8091/tcp": "Frontend tcp-listen port"
     },
     "options": {
-      "server": null
+      "server": null,
+      "auth_token": ""
     },
     "schema": {
-      "server": "url"
-    },
-    "image": "Priyantha/zwave-js-ui-proxy-{arch}"
+      "server": "url",
+      "auth_token": "str?"
+    }
 }
